@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eff79a71.css",
-    "main.js": "/static/js/main.5bdb461d.js",
+    "main.css": "/static/css/main.2e03f290.css",
+    "main.js": "/static/js/main.06c3d143.js",
     "static/css/487.3fc29f3b.chunk.css": "/static/css/487.3fc29f3b.chunk.css",
     "static/js/487.7a3a7716.chunk.js": "/static/js/487.7a3a7716.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -14,7 +14,6 @@
     "static/media/yolo_cone_detection_sim.png": "/static/media/yolo_cone_detection_sim.005b29f81e743f63cacf.png",
     "static/media/block_diagram.jpg": "/static/media/block_diagram.0581394121ec8caa3f57.jpg",
     "static/media/MMM.jpg": "/static/media/MMM.e0fa1d62eabccd716d04.jpg",
-    "static/media/Georgia-Tech-Seal.png": "/static/media/Georgia-Tech-Seal.c8823f25e3d6e0af62db.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/scale.png": "/static/media/scale.91150675092f1dd7c13b.png",
     "static/media/deep_l_research.png": "/static/media/deep_l_research.23f43c4cdeda9253f2ba.png",
@@ -27,6 +26,7 @@
     "static/media/img_attentionyolo.jpg": "/static/media/img_attentionyolo.2d4f281834c805c48863.jpg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/FIU Alone.png": "/static/media/FIU Alone.b7f6301afa252d1a4a8d.png",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/panasonic.jpg": "/static/media/panasonic.0fbf16ccd64e4bd5f80a.jpg",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
@@ -34,15 +34,15 @@
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.99241699e0279aeb0db7.svg",
-    "main.eff79a71.css.map": "/static/css/main.eff79a71.css.map",
-    "main.5bdb461d.js.map": "/static/js/main.5bdb461d.js.map",
+    "main.2e03f290.css.map": "/static/css/main.2e03f290.css.map",
+    "main.06c3d143.js.map": "/static/js/main.06c3d143.js.map",
     "487.3fc29f3b.chunk.css.map": "/static/css/487.3fc29f3b.chunk.css.map",
     "487.7a3a7716.chunk.js.map": "/static/js/487.7a3a7716.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
     "990.e2212136.chunk.js.map": "/static/js/990.e2212136.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eff79a71.css",
-    "static/js/main.5bdb461d.js"
+    "static/css/main.2e03f290.css",
+    "static/js/main.06c3d143.js"
   ]
 }
