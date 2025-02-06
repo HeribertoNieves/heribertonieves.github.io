@@ -41,7 +41,7 @@
 }
 
 .education-roundedimg {
-  object-fit: cover;
+  object-fit: contain;
   margin-right: 2rem;
   width: 6rem;
   height: 6rem;
@@ -77,6 +77,15 @@
 .education-text-bullets > ul {
   text-align: left;
   margin-top: 0.5rem;
+}
+
+.education-text-bullets > ul li::before {
+  content: "\2022"; /* Unicode for bullet symbol */
+  color: $bullets; /* Using the $bullets variable defined in globalColor.scss */
+  font-size: 16px; /* Keeping the default font size for the bullets */
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /* Media Query */

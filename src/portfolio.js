@@ -58,13 +58,15 @@ const aboutMe = {
   subTitle: (
   <>
   <br /> <br /> Thanks for visiting!
-  <br /> <br /> I’m Heriberto, but feel free to call me Andy (short for my middle name, Andres). I’m currently pursuing a Ph.D. in Robotics at the Georgia Institute of Technology. Outside of my academic pursuits, I enjoy Latin dance, drawing, and gaming.
+  <br /> <br /> I’m Heriberto, but you can call me <strong>Andy</strong> (short for my middle name, Andres). I’m currently pursuing a <strong>Ph.D. in Robotics at the Georgia Institute of Technology</strong>. Outside of my academic pursuits, I enjoy Latin dance, drawing, and gaming.
   <br /><br />
-  My interests lie at the intersection of AI, healthcare, and robotics. I’m particularly focused on automating medical imaging analysis, developing MRI-compatible robotics, and creating intelligent systems to improve patient care and diagnostics. 
+  My interests lie at the <strong>intersection of AI, healthcare, and robotics</strong>. I’m particularly focused on automating medical imaging analysis, developing MRI-compatible robotics, and creating intelligent systems to improve patient care and diagnostics. 
   <br /><br />
-  My research centers on enhancing the accuracy and reducing inter-reader variability in magnetic resonance elastography through AI and computational modeling. I have experience developing innovative solutions that bridge healthcare, AI (including machine learning, deep learning, computer vision, and optimization), and robotics.
+  <strong>My research centers on enhancing the accuracy and reducing inter-reader variability in magnetic resonance elastography through AI and computational modeling</strong>. I have experience developing innovative solutions that bridge healthcare, AI (including machine learning, deep learning, computer vision, and optimization), and robotics.
   <br /><br />
-  In addition to my research, I’m passionate about mentoring and making AI more accessible. Whether guiding students in machine learning projects or exploring AI-driven entrepreneurship, I thrive on fostering innovation and sharing knowledge.
+  My work has led me to recieve the <strong>NSF GRFP, GEM Fellowship, GT Pathbreakers Fellowship, Atlanta ARCS Fellowship, and the GT Goizueta Fellowship</strong>.
+  <br /><br />
+  In addition to my research, I’m passionate about mentoring and making AI more accessible. Whether guiding students in machine learning projects or <strong>exploring AI-driven entrepreneurship</strong>, I thrive on fostering innovation and sharing knowledge.
   <br /><br /> When I’m not in the lab or coding, you can find me dancing to my favorite tunes, watching a new series, or climbing in rank in my video games.
   <br /><br /> Feel free to explore my site, and don’t hesitate to reach out via the "Contact Me" tab — I’d love to connect!
 
@@ -216,47 +218,47 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Georgia Institute of Technology",
-      logo: require("./assets/images/Georgia-Tech-Seal.png"),
-      subHeader: "Doctorate of Philosophy in Mechanical Engineering: Robotics and Controls",
-      duration: "Summer 2022 - Fall 2026 (Expected)",
-      // desc: "Relevant Coursework:",
+      logo: require("./assets/images/Georgia_Tech_Yellow_Jackets_logo.png"),
+      subHeader: "Ph.D. in Robotics",
+      duration: "Fall 2021 - Fall 2025 (Expected)",
+      desc: "Research: Deep Learning for Medical Image (MR Elastography) Processing",
       descBullets: [
-        "Research: Secure Networked Robotics",
-        "Coursework: Linear Controls, Digital Controls, Nonlinear Controls, Advanced Control Implementation, Robotics, Dynamics of Mechanical Systems",
+        "Coursework: Artificial Intelligence, Machine Learning, Robotics, Deep Reinforcement Learning, Linear Controls, Digital Controls",
+        "Minor: Technology Innovation and Entrepreneurship (TI:GER Program)",
       ]
     },
     {
       schoolName: "Georgia Institute of Technology",
-      logo: require("./assets/images/Georgia-Tech-Seal.png"),
-      subHeader: "Masters of Science in Computer Science: Machine Learning for Robotics",
-      duration: "Summer 2024 - Fall 2026 (Expected)",
+      logo: require("./assets/images/Georgia_Tech_Yellow_Jackets_logo.png"),
+      subHeader: "M.S. in Mechanical Engineering",
+      duration: "Fall 2023 - Fall 2025 (Expected)",
       // desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Coursework: Machine Learning, Artificial Intelligence, Deep Learning, Robotics Research, Deep Reinforcement Learning, Multi-Robot Systems"
-      ]
+      // descBullets: [
+      //   "Coursework: Machine Learning, Artificial Intelligence, Deep Learning, Robotics Research, Deep Reinforcement Learning, Multi-Robot Systems"
+      // ]
     },
     {
-      schoolName: "Georgia Institute of Technology",
-      logo: require("./assets/images/Georgia-Tech-Seal.png"),
-      subHeader: "Masters of Science in Mechanical Engineering: Design",
-      duration: "Fall 2020 - Spring 2021",
-      // desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Florida International University",
+      logo: require("./assets/images/FIU Alone.png"),
+      subHeader: "B.S. in Biomedical Engineering",
+      duration: "Fall 2017 - Spring 2021",
+      desc: "Outstanding Graduate Award (1st in Class)",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
-    {
-      schoolName: "Georgia Institute of Technology",
-      logo: require("./assets/images/Georgia-Tech-Seal.png"),
-      subHeader: "Bachelors of Science in Mechanical Engineering",
-      duration: "Fall 2016 - Spring 2020",
-      // desc: "Participated in the research of XXX and published 3 papers.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
-    },
+    // {
+    //   schoolName: "Georgia Institute of Technology",
+    //   logo: require("./assets/images/Georgia-Tech-Seal.png"),
+    //   subHeader: "Bachelors of Science in Mechanical Engineering",
+    //   duration: "Fall 2016 - Spring 2020",
+    //   // desc: "Participated in the research of XXX and published 3 papers.",
+    //   // descBullets: [
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    //   // ]
+    // },
   ]
 };
 
