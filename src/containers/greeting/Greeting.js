@@ -37,11 +37,26 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./Jacob Blevins -- Resume.pdf")}
-                    download="Jacob Blevins Resume.pdf"
+                    // href={require("./Jacob Blevins -- Resume.pdf")}
+                    // download="Jacob Blevins Resume.pdf"
+                    // className="download-link-button"
+                    href="https://drive.google.com/file/d/1pM5rHffS4y7Mt3kn0QVxQT019DRq-rQZ/view?usp=sharing"
+                    target="_blank" // This ensures it opens in a new tab
+                    rel="noopener noreferrer"
                     className="download-link-button"
                   >
                     <Button text="My resume" />
+                  </a>
+                )}
+                {/* Button to open CV from Google Drive */}
+                {greeting.cvLink && (
+                  <a
+                    href="https://drive.google.com/file/d/1rjV2lC4FdKZxXp4nvOv87fXywT_se-2X/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="download-link-button"
+                  >
+                    <Button text="My CV" />
                   </a>
                 )}
               </div>

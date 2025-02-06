@@ -24,13 +24,14 @@ const greeting = {
   title: "Hello! I'm Heriberto,",
   subTitle: (
     <>
-      a passionate roboticist, eager to advance the human condition through the development of highly intelligent robotics.
-      {/* <br />      <br />
+      A passionate researcher and engineer, dedicated to advancing healthcare by bridging AI, robotics, and medical imaging technologies.      {/* <br />      <br />
       Oh, and I love teaching robotics too. */}
     </>
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1yHYXYUIBkpd8-uZLQziNxRujTnPVBChv/view?usp=sharing",
+    "https://drive.google.com/file/d/1pM5rHffS4y7Mt3kn0QVxQT019DRq-rQZ/view?usp=sharing",
+  cvLink:
+    "https://drive.google.com/file/d/1rjV2lC4FdKZxXp4nvOv87fXywT_se-2X/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -38,9 +39,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/jacob-creed-blevins/",
-  gmail: "jacob.blevins@gatech.edu",
-  github: "https://github.com/jblevins32",
+  linkedin: "https://www.linkedin.com/in/hnieves/",
+  gmail: "hnieves6@gatech.edu",
+  github: "https://github.com/HeribertoNieves",
 //  gitlab: "https://gitlab.com/saadpasta",
 //  facebook: "https://www.facebook.com/saad.pasta7",
 //  medium: "https://medium.com/@saadpasta",
@@ -56,16 +57,16 @@ const aboutMe = {
   title: "About me",
   subTitle: (
   <>
-  <br /> <br /> Thanks for stopping by!
-  <br /> <br /> I'm Jacob, an Atlanta, Georgia native and a PhD student / Masters student / Associate Academic Professional at the Georgia Institute of Technology. On the side, I am an avid singer and CrossFitter!
+  <br /> <br /> Thanks for visiting!
+  <br /> <br /> I’m Heriberto, but feel free to call me Andy (short for my middle name, Andres). I’m currently pursuing a Ph.D. in Robotics at the Georgia Institute of Technology. Outside of my academic pursuits, I enjoy Latin dance, drawing, and gaming.
   <br /><br />
-  My passion lies in creating the algorithms that power next-generation intelligent systems—think autonomous vehicles, humanoid robots, and the technologies that bring them to life. 
+  My interests lie at the intersection of AI, healthcare, and robotics. I’m particularly focused on automating medical imaging analysis, developing MRI-compatible robotics, and creating intelligent systems to improve patient care and diagnostics. 
   <br /><br />
-  My research focuses on securing networked robotics by exploring how adversaries might attack these systems; I develop novel methods with mathematical frameworks based in control theory, cybersecurity, and machine learning to defend against such attacks.
+  My research centers on enhancing the accuracy and reducing inter-reader variability in magnetic resonance elastography through AI and computational modeling. I have experience developing innovative solutions that bridge healthcare, AI (including machine learning, deep learning, computer vision, and optimization), and robotics.
   <br /><br />
-  As much as I love research, I’m equally devoted to teaching. I thrive on helping students navigate the complexities of robotics and control theory, sparking their curiosity, and fostering the next wave of engineers.
-  <br /><br /> When I'm not in the lab or classroom, I am singing as a bass vocalist for the Atlanta Symphony Orchestra Choir or with a jazz quartet... or I'm probably in the gym.
-  <br /><br /> Take a look around and feel free to reach out via the "Contact Me" tab, I'd love to get to know you!
+  In addition to my research, I’m passionate about mentoring and making AI more accessible. Whether guiding students in machine learning projects or exploring AI-driven entrepreneurship, I thrive on fostering innovation and sharing knowledge.
+  <br /><br /> When I’m not in the lab or coding, you can find me dancing to my favorite tunes, watching a new series, or climbing in rank in my video games.
+  <br /><br /> Feel free to explore my site, and don’t hesitate to reach out via the "Contact Me" tab — I’d love to connect!
 
   {/* <br /> <br /> 💡  Affine Transformation-based Perfectly Undetectable False Data Injection Attacks on Remote Manipulator Kinematic Control with Attack Detector, 
   <br /><br /> 💡 Encrypted Model Reference Adaptive Control with False Data Injection Attack Resilience via Somewhat Homomorphic Encryption-Based Overflow Trap​, 
