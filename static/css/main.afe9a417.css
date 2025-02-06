@@ -126,7 +126,6 @@ body {
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   font-weight: 700;
-  max-width: 65px;
   padding: 0 10px;
 }
 .header .menu {

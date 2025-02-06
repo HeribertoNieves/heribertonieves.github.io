@@ -4861,7 +4861,7 @@
         const o = { enabled: !0, animation: n, duration: 2e3 },
           l = { animated: !0 },
           c = {
-            username: "Heriberto A. Nieves",
+            username: "Heriberto Nieves",
             title: "Hello! I'm Andy,",
             subTitle: (0, s.jsx)(s.Fragment, {
               children:
