@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eff79a71.css",
-    "main.js": "/static/js/main.6c5a3f4e.js",
+    "main.js": "/static/js/main.5bdb461d.js",
     "static/css/487.3fc29f3b.chunk.css": "/static/css/487.3fc29f3b.chunk.css",
     "static/js/487.7a3a7716.chunk.js": "/static/js/487.7a3a7716.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -14,7 +14,6 @@
     "static/media/yolo_cone_detection_sim.png": "/static/media/yolo_cone_detection_sim.005b29f81e743f63cacf.png",
     "static/media/block_diagram.jpg": "/static/media/block_diagram.0581394121ec8caa3f57.jpg",
     "static/media/MMM.jpg": "/static/media/MMM.e0fa1d62eabccd716d04.jpg",
-    "static/media/Jacob Blevins -- Resume.pdf": "/static/media/Jacob Blevins -- Resume.82dd3a499cde82bf1dfb.pdf",
     "static/media/Georgia-Tech-Seal.png": "/static/media/Georgia-Tech-Seal.c8823f25e3d6e0af62db.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/scale.png": "/static/media/scale.91150675092f1dd7c13b.png",
@@ -36,7 +35,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.99241699e0279aeb0db7.svg",
     "main.eff79a71.css.map": "/static/css/main.eff79a71.css.map",
-    "main.6c5a3f4e.js.map": "/static/js/main.6c5a3f4e.js.map",
+    "main.5bdb461d.js.map": "/static/js/main.5bdb461d.js.map",
     "487.3fc29f3b.chunk.css.map": "/static/css/487.3fc29f3b.chunk.css.map",
     "487.7a3a7716.chunk.js.map": "/static/js/487.7a3a7716.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -44,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.eff79a71.css",
-    "static/js/main.6c5a3f4e.js"
+    "static/js/main.5bdb461d.js"
   ]
 }
