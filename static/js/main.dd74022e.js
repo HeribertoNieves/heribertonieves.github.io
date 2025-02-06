@@ -5388,22 +5388,22 @@
             ],
             display: !0,
           },
-        //   b = {
-        //     title: a()("Music \ud83c\udfb6"),
-        //     subtitle:
-        //       "One of my side hobbies is singing! Check out some of the pieces I am in! (or have sung with the Atlanta Symphony, but was recorded before my time)",
-        //     podcast: [
-        //       "https://open.spotify.com/embed/track/2cimcHtPfLS2S60KzJW1Yf?utm_source=generator",
-        //       "https://open.spotify.com/embed/track/7J0hYdgCaxYjz17L5smEhz?utm_source=generator",
-        //       "https://open.spotify.com/embed/track/3nhOjl7qt8Hd3ozbJIBaG9?utm_source=generator",
-        //       "https://open.spotify.com/embed/track/5eF5Lp6ncRfChFcLrENQoA?utm_source=generator",
-        //       "https://open.spotify.com/embed/track/3mBnMk58L6CGjOuqBCr5Ng?utm_source=generator",
-        //       "https://open.spotify.com/embed/track/19CEvGvCoMDaH15aoTG4hu?utm_source=generator",
-        //       "https://open.spotify.com/embed/track/5rND1yAKs1ysp5DrMwmOYr?utm_source=generator",
-        //       "https://open.spotify.com/embed/track/30oWbUM7jgDSwWqhRkqisK?utm_source=generator",
-        //     ],
-        //     display: !0,
-        //   },
+          b = {
+            title: a()("Music \ud83c\udfb6"),
+            subtitle:
+              "One of my side hobbies is singing! Check out some of the pieces I am in! (or have sung with the Atlanta Symphony, but was recorded before my time)",
+            podcast: [
+              "https://open.spotify.com/embed/track/2cimcHtPfLS2S60KzJW1Yf?utm_source=generator",
+              "https://open.spotify.com/embed/track/7J0hYdgCaxYjz17L5smEhz?utm_source=generator",
+              "https://open.spotify.com/embed/track/3nhOjl7qt8Hd3ozbJIBaG9?utm_source=generator",
+              "https://open.spotify.com/embed/track/5eF5Lp6ncRfChFcLrENQoA?utm_source=generator",
+              "https://open.spotify.com/embed/track/3mBnMk58L6CGjOuqBCr5Ng?utm_source=generator",
+              "https://open.spotify.com/embed/track/19CEvGvCoMDaH15aoTG4hu?utm_source=generator",
+              "https://open.spotify.com/embed/track/5rND1yAKs1ysp5DrMwmOYr?utm_source=generator",
+              "https://open.spotify.com/embed/track/30oWbUM7jgDSwWqhRkqisK?utm_source=generator",
+            ],
+            display: !0,
+          },
           E = {
             title: "Resume",
             subtitle: "Feel free to download my resume",
