@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Jacob Blevins",
-  title: "Hello! I'm Jacob,",
+  username: "Heriberto Andres Nieves-Vazquez",
+  title: "Hello! I'm Heriberto,",
   subTitle: (
     <>
       a passionate roboticist, eager to advance the human condition through the development of highly intelligent robotics.
