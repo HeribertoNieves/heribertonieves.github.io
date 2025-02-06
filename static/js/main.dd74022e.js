@@ -4894,7 +4894,7 @@
                 "My passion lies in the intersection of AI, healthcare, and robotics, from automated medical imaging analysis, to MRI compatible robotics, and creating intelligent systems that enhance patient care and diagnostics.",
                 (0, s.jsx)("br", {}),
                 (0, s.jsx)("br", {}),
-                "My research focuses on improving the accuracy and decreasing inter-reader variability of magnetic resonance elastography through AI and computational modeling. A few techniques I leverage include deep learning, federated learning, and physics-informed models.",
+                "My research focuses on improving the accuracy and decreasing inter-reader variability of magnetic resonance elastography through AI and computational modeling. I have a track record of developing and testing cutting-edge solutions at the intersection of healthcare, AI (Machine Learning, Deep Learning, Computer Vision, Optimization), and robotics.",
                 (0, s.jsx)("br", {}),
                 (0, s.jsx)("br", {}),
                 "Beyond research, I'm passionate about mentoring and making AI more accessible. Whether it's guiding students in machine learning research projects or exploring the intersection of AI and entrepreneurship, I thrive on innovation and knowledge-sharing.",
@@ -5388,22 +5388,22 @@
             ],
             display: !0,
           },
-          b = {
-            title: a()("Music \ud83c\udfb6"),
-            subtitle:
-              "One of my side hobbies is singing! Check out some of the pieces I am in! (or have sung with the Atlanta Symphony, but was recorded before my time)",
-            podcast: [
-              "https://open.spotify.com/embed/track/2cimcHtPfLS2S60KzJW1Yf?utm_source=generator",
-              "https://open.spotify.com/embed/track/7J0hYdgCaxYjz17L5smEhz?utm_source=generator",
-              "https://open.spotify.com/embed/track/3nhOjl7qt8Hd3ozbJIBaG9?utm_source=generator",
-              "https://open.spotify.com/embed/track/5eF5Lp6ncRfChFcLrENQoA?utm_source=generator",
-              "https://open.spotify.com/embed/track/3mBnMk58L6CGjOuqBCr5Ng?utm_source=generator",
-              "https://open.spotify.com/embed/track/19CEvGvCoMDaH15aoTG4hu?utm_source=generator",
-              "https://open.spotify.com/embed/track/5rND1yAKs1ysp5DrMwmOYr?utm_source=generator",
-              "https://open.spotify.com/embed/track/30oWbUM7jgDSwWqhRkqisK?utm_source=generator",
-            ],
-            display: !0,
-          },
+        //   b = {
+        //     title: a()("Music \ud83c\udfb6"),
+        //     subtitle:
+        //       "One of my side hobbies is singing! Check out some of the pieces I am in! (or have sung with the Atlanta Symphony, but was recorded before my time)",
+        //     podcast: [
+        //       "https://open.spotify.com/embed/track/2cimcHtPfLS2S60KzJW1Yf?utm_source=generator",
+        //       "https://open.spotify.com/embed/track/7J0hYdgCaxYjz17L5smEhz?utm_source=generator",
+        //       "https://open.spotify.com/embed/track/3nhOjl7qt8Hd3ozbJIBaG9?utm_source=generator",
+        //       "https://open.spotify.com/embed/track/5eF5Lp6ncRfChFcLrENQoA?utm_source=generator",
+        //       "https://open.spotify.com/embed/track/3mBnMk58L6CGjOuqBCr5Ng?utm_source=generator",
+        //       "https://open.spotify.com/embed/track/19CEvGvCoMDaH15aoTG4hu?utm_source=generator",
+        //       "https://open.spotify.com/embed/track/5rND1yAKs1ysp5DrMwmOYr?utm_source=generator",
+        //       "https://open.spotify.com/embed/track/30oWbUM7jgDSwWqhRkqisK?utm_source=generator",
+        //     ],
+        //     display: !0,
+        //   },
           E = {
             title: "Resume",
             subtitle: "Feel free to download my resume",
@@ -5412,8 +5412,8 @@
           _ = {
             title: a()("Contact Me!"),
             subtitle: "",
-            number: "678-383-1625",
-            email_address: "jacob.blevins@gatech.edu",
+            number: "954-598-1636",
+            email_address: "hnieves6@gatech.edu",
           },
           A = { userName: "twitter", display: !1 },
           D = !0;
