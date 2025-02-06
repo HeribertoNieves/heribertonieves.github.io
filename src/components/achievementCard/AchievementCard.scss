@@ -19,9 +19,11 @@
 }
 
 .certificate-card {
+  display: flex; // pushed url to bottom
+  flex-direction:column; // pushed url to bottom
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  padding: 1.5rem;
+  padding: 1rem;//1.5rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   -webkit-transition: all 0.3s ease;
@@ -39,7 +41,7 @@
 }
 .certificate-image-div {
   position: relative;
-  height: 500px;
+  height: 400px; //500px
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -59,6 +61,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: auto; // pushed url to bottom
 }
 .certificate-card-footer span.certificate-tag {
   background: $buttonColor;

@@ -489,87 +489,113 @@ const bigProjects = { // This is under StartupProjects container
 const research = {
   title: emoji("Research"),
   subtitle:
-    "As networked robots become increasingly relevent, the security of such systems is imperative. Checkout my research below!",
+    "As AI, healthcare, and robotics continue to evolve, innovating solutions that enhance their integration and impact is crucial. Check out my work below!",
 
   achievementsCards: [
     {
-      title: "Affine Transformation-Based Perfectly Undetectable False Data Injection Attacks on Remote Manipulator Kinematic Control With Attack Detector",
+      title: "Deep Learning‐Enabled Automated Quality Control for Liver MR Elastography: Initial Results",
       subtitle:
-        "This letter demonstrates the viability of perfectly undetectable affine transformation attacks against robotic manipulators where intelligent attackers can inject multiplicative and additive false data while remaining completely hidden from system users.",
-      image: require("./assets/images/scale.png"),
+        "This study demonstrates the potential of deep learning (DL) architectures for automating liver MR Elastography image quality classification, achieving an accuracy of up to 92.1%, providing a reliable tool for improving diagnostic efficiency in liver assessments.",
+      image: require("./assets/images/DL MRE QC.png"),
       imageAlt: "",
       footerLink: [
         {
           name: "Publication",
-          url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10654498"
+          url: "https://onlinelibrary.wiley.com/doi/full/10.1002/jmri.29490"
         }
       ]
     },
     {
-      title: "Encrypted Model Reference Adaptive Control with False Data Injection Attack Resilience via Somewhat Homomorphic Encryption-Based Overflow Trap",
+      title: "Effects of Driver Placement and Phase on Multi-actuator Magnetic Resonance Elastography via Finite Element Analysis",
       subtitle:
-        "This research proposes an encrypted adaptive control framework that can be secured for cloud computing with encryption and without issues caused by encryption overflow and large execution delays.",
-      image: require("./assets/images/block_diagram.jpg"),
+        "This research explores the use of finite element analysis (FEA) to optimize multi-actuator configurations in magnetic resonance elastography (MRE), aiming to enhance displacement uniformity and minimize wave attenuation during imaging.",
+      image: require("./assets/images/MRE Wave ACC.png"),
       imageAlt: "",
       footerLink: [
         {
           name: "Publication",
-          url: "https://www.techrxiv.org/users/815499/articles/1216374-encrypted-model-reference-adaptive-control-with-false-data-injection-attack-resilience-via-somewhat-homomorphic-encryption-based-overflow-trap"
+          url: "https://ieeexplore.ieee.org/abstract/document/10155915/"
         }
       ]
     },
     {
-      title: "Encrypted Coordinate Transformation via Parallelized Somewhat Homomorphic Encryption for Robotic Teleoperation",
+      title: "Closed-Loop Estimation of Individualized Inter-Stimulus Interval Window for Transient Neuromodulation via Paired Mechanical and Brain Stimulation",
       subtitle:
-        "This paper seeks to understand the viability of encrypted robot control. This objective is accomplished through encrypted control via Dyer’s somewhat homomorphic encryption scheme on multi and single threaded matrix transformations for telecommunicated movement commands between a virtual-reality joystick and a robot arm.",
-      image: require("./assets/images/URImage.PNG"),
+        "This work introduces a real-time, closed-loop framework using Bayesian Optimization for efficiently determining individualized stimulation windows in Mechanical Stimulation-Conditioned Transcranial Magnetic Stimulation (Mstim-cTMS), reducing the calibration time by 93.8%.",
+      image: require("./assets/images/Mstim TMS.png"),
       imageAlt: "",
       footerLink: [
         {
           name: "Publication",
-          url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10196122"
+          url: "https://ieeexplore.ieee.org/abstract/document/10020183"
         }
       ]
     },
     {
-      title: "Defense Mechanisms Against Undetectable Cyberattacks on Telerobotic Systems",
+      title: "Undetectable False Data Injection Attacks on Encrypted Bilateral Teleoperation System based on Dynamic Symmetry and Malleability",
       subtitle:
-        "This research develops a two-detector mechanism for undetectable attack detection for a mobile robot and analyzes the strengths and weaknesses of both detectors in the covert attack and ATPA scenarios, resulting in a robust attack detection framework.",
-      image: require("./assets/images/photoTraj.png"),
+        "This paper explores the vulnerability of bilateral teleoperation systems to perfectly undetectable False Data Injection Attacks (FDIAs), revealing the potential for cyberattacks to alter robot motion while remaining imperceptible to operators by testing connected, teleoperated robots located in the US and Japan.",
+      image: require("./assets/images/bilat teleop.png"),
       imageAlt: "",
       footerLink: [
         {
-          name: "In Progress",
-          url: ""
+          name: "Publication",
+          url: "https://www.arxiv.org/abs/2409.13061"
         }
       ]
     },
     {
-      title: "Deep Learning for the Existence of Perfectly Undetectable FDIA on Output-Feedback LTI Systems",
+      title: "A Virtual Reality Guidance System for a Precise MRI Injection Robot",
       subtitle:
-        "System states and control inputs can be perfectly modified such that an observer sees no operational modifications, regardless of the plant's actual modified operations. This research aims to determine the nontrivial solutions for such an attack through pattern recognition with deep learning networks.",
-      image: require("./assets/images/deep_l_research.png"),
+      "This work presents the development of an immersive virtual reality tool for visualizing MRI data during precision robot-assisted surgeries, aimed at improving trajectory selection and enhancing user experience through expert and novice feedback.",
+      image: require("./assets/images/VR.png"),
       imageAlt: "",
       footerLink: [
         {
-          name: "In Progress",
-          url: ""
+          name: "Publication",
+          url: "https://ieeexplore.ieee.org/abstract/document/10039442"
         }
       ]
     },
     {
-      title: "Developing AI-Powered Knowledge Assistants to Enhance User Experience in Makerspaces",
+      title: "Sensor-Embedded Tissue Phantom for Magnetic Resonance Elastography Mechanical Failure Testing",
       subtitle:
-        "A framework for implementation of AI chatbots in Makerspaces to keep makerspace users trained, equipped, and safer.",
-      image: require("./assets/images/ISAM_2024_Blevins_Poster.png"),
+        "This work introduces a sensor-embedded tissue phantom setup paired with a support vector machine (SVM) classifier to automate the MRE actuator testing process for improving contact detection and reducing failed acquisitions in clinical MRE applications.",
+      image: require("./assets/images/MRE Phantom.png"),
       imageAlt: "",
       footerLink: [
         {
-          name: "Paper",
-          url: "https://drive.google.com/file/d/1hjkZQARhwEzgF-Men--d27ofM2BetxrS/view?usp=sharing"
+          name: "Publication",
+          url: "https://asmedigitalcollection.asme.org/medicaldevices/article-abstract/18/4/041003/1202997/Sensor-Embedded-Tissue-Phantom-for-Magnetic?redirectedFrom=fulltext"
         }
       ]
-    }
+    },
+    {
+      title: "MRI Compatible Robotic Dosimeter System for Safety Assessment of Medical Implants",
+      subtitle:
+      "This paper presents an MRI-compatible robotic system that generates heat and electric field maps around implantable medical devices, providing a novel approach for evaluating medical device safety in clinical MRI settings.",
+      image: require("./assets/images/efield.png"),
+      imageAlt: "",
+      footerLink: [
+        {
+          name: "Publication",
+          url: "https://ieeexplore.ieee.org/abstract/document/10417364"
+        }
+      ]
+    },
+    {
+      title: "Prediction of Single Trial Somatosensory Evoked Potentials From Mechanical Stimulation Intensity",
+      subtitle:
+      "This project develops a method for predicting single-trial somatosensory evoked potentials (SSEPs) from tendon hammer accelerations, offering a practical alternative for clinical settings where traditional SSEP measurement is not feasible.",
+      image: require("./assets/images/ssep.png"),
+      imageAlt: "",
+      footerLink: [
+        {
+          name: "Publication",
+          url: "https://ieeexplore.ieee.org/abstract/document/9896482"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -776,8 +802,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me!"),
   subtitle: "",
-  number: "678-383-1625",
-  email_address: "jacob.blevins@gatech.edu"
+  email_address: "hnieves6@gatech.edu"
 };
 
 // Twitter Section
