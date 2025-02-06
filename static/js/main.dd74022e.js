@@ -4861,8 +4861,8 @@
         const o = { enabled: !0, animation: n, duration: 2e3 },
           l = { animated: !0 },
           c = {
-            username: "Jacob Blevins",
-            title: "Hello! I'm Jacob,",
+            username: "Heriberto A. Nieves",
+            title: "Hello! I'm Andy,",
             subTitle: (0, s.jsx)(s.Fragment, {
               children:
                 "a passionate roboticist, eager to advance the human condition through the development of highly intelligent robotics.",
