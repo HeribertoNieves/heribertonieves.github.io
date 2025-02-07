@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.e5d263fc.css",
-    "main.js": "/static/js/main.58b1dc04.js",
+    "main.js": "/static/js/main.9ee1fa53.js",
     "static/css/487.3fc29f3b.chunk.css": "/static/css/487.3fc29f3b.chunk.css",
     "static/js/487.7a3a7716.chunk.js": "/static/js/487.7a3a7716.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.e2212136.chunk.js": "/static/js/990.e2212136.chunk.js",
+    "static/media/Model Chain.png": "/static/media/Model Chain.e28aa0b8337250c98fc3.png",
     "static/media/bboxes.jpg": "/static/media/bboxes.febd7a9b77e89376aa26.jpg",
-    "static/media/robonav.png": "/static/media/robonav.bc4c690e18b6d4bd2e22.png",
-    "static/media/yolo_cone_detection_sim.png": "/static/media/yolo_cone_detection_sim.005b29f81e743f63cacf.png",
+    "static/media/Maze Solver Pic.jpeg": "/static/media/Maze Solver Pic.a22c5a49e28dc9401c8b.jpeg",
     "static/media/Mstim TMS.png": "/static/media/Mstim TMS.7ae97f127bec6701f06c.png",
+    "static/media/Dead Reck Pic.jpeg": "/static/media/Dead Reck Pic.212c1dfd5960fd094fbe.jpeg",
     "static/media/bilat teleop.png": "/static/media/bilat teleop.35d977a79ebdd0e9f2a4.png",
     "static/media/MRE Wave ACC.png": "/static/media/MRE Wave ACC.946f211e0f229357eb5a.png",
     "static/media/MRE Phantom.png": "/static/media/MRE Phantom.3318602f186a8588ecde.png",
-    "static/media/MMM.jpg": "/static/media/MMM.e0fa1d62eabccd716d04.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/DND EDA.png": "/static/media/DND EDA.e3fc1ef8d888672514d7.png",
+    "static/media/FinanceLit.png": "/static/media/FinanceLit.cf8b14d3d932491105f3.png",
     "static/media/GT.jpg": "/static/media/GT.c3a0522df3fdea7b7199.jpg",
     "static/media/pfp.jpg": "/static/media/pfp.a521f9acff8f6b26552b.jpg",
     "static/media/VR.png": "/static/media/VR.18fe55a9f1e12beb2cb9.png",
@@ -22,11 +24,10 @@
     "static/media/efield.png": "/static/media/efield.05ba546fee44ef12ce7c.png",
     "static/media/DL MRE QC.png": "/static/media/DL MRE QC.0ceac8bd6b9b14830fe8.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/slosh.png": "/static/media/slosh.d326abc4f5f566fba3bf.png",
     "static/media/ssep.png": "/static/media/ssep.1e1064dc128874fa1414.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
-    "static/media/img_attentionyolo.jpg": "/static/media/img_attentionyolo.2d4f281834c805c48863.jpg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/Multi Armed.png": "/static/media/Multi Armed.e6740b7883f33315bce6.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/FIU Alone.png": "/static/media/FIU Alone.b7f6301afa252d1a4a8d.png",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
@@ -37,7 +38,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.99241699e0279aeb0db7.svg",
     "main.e5d263fc.css.map": "/static/css/main.e5d263fc.css.map",
-    "main.58b1dc04.js.map": "/static/js/main.58b1dc04.js.map",
+    "main.9ee1fa53.js.map": "/static/js/main.9ee1fa53.js.map",
     "487.3fc29f3b.chunk.css.map": "/static/css/487.3fc29f3b.chunk.css.map",
     "487.7a3a7716.chunk.js.map": "/static/js/487.7a3a7716.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -45,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.e5d263fc.css",
-    "static/js/main.58b1dc04.js"
+    "static/js/main.9ee1fa53.js"
   ]
 }
