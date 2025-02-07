@@ -466,7 +466,7 @@ const bigProjects = { // This is under StartupProjects container
     //   ]
     // },
     {
-      image: require("./assets/images/DND EDA.png"),
+      image: require("./assets/images/DND EDA2.png"),
       projectName: "Dungeons and Dragons 5e Spells: Exploratory Data Analysis",
       projectDesc: "The magic behind the mechanics! Conducted an exploratory data analysis of D&D 5e spells, visualizing trends in sourcebooks, classes, schools of magic, spell levels, components, rituals, casting times, ranges, and durations.",
       footerLink: [
