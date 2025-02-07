@@ -1,95 +1,183 @@
+// @import "../../_globalColor";
+
+// .repo-card-div {
+//   display:flex; // andy added to push links to bottom
+//   flex-direction: column; // andy added to push links to bottom
+//   color: $githubRepoCardColor;
+//   background-color: $lightBackground2;
+//   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+//   padding: 2rem;
+//   cursor: pointer;
+//   -webkit-transition: all 0.3s ease;
+//   -o-transition: all 0.3s ease;
+//   transition: all 0.3s ease;
+// }
+// .repo-card-div:hover {
+//   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+// }
+
+// .repo-content {
+//   flex-grow: 1;
+// }
+
+// .repo-footer {
+//   margin-top: auto;
+//   text-align: center;
+//   padding-top: 10px;
+// }
+
+// .repo-stats {
+//   display: flex;
+//   -webkit-box-pack: justify;
+//   justify-content: space-between;
+//   font-size: 13px;
+//   color: $githubRepoCardRepoCardStatsColor;
+// }
+
+// .repo-left-stat {
+//   -webkit-box-flex: 1;
+//   flex-grow: 1;
+//   display: flex;
+// }
+
+// .language-color {
+//   width: 10px;
+//   height: 10px;
+//   background-color: $githubRepoCardLanguageColorBG;
+//   margin-right: 0.25rem;
+//   border-radius: 100%;
+// }
+
+// .repo-left-stat span {
+//   display: flex;
+//   -webkit-box-align: center;
+//   align-items: center;
+//   margin-right: 0.75rem;
+// }
+
+// .repo-name-div {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .repo-svg {
+//   margin-right: 0.5rem;
+//   min-width: 16px;
+// }
+
+// .repo-name {
+//   white-space: nowrap;
+//   text-overflow: ellipsis;
+//   color: $githubRepoCardRepoNameColor;
+//   margin-bottom: 0.75rem;
+//   font-size: 25px;
+//   font-weight: 700;
+//   letter-spacing: -0.5px;
+//   overflow: hidden;
+//   margin: 0px;
+//   height: 30px;
+// }
+
+// .repo-star-svg {
+//   margin-right: 0.3rem;
+// }
+
+// .repo-description {
+//   overflow: hidden;
+//   display: -webkit-box;
+//   -webkit-line-clamp: 2;
+//   -webkit-box-orient: vertical;
+// }
+
+// .dark-card-mode {
+//   background-color: $darkBackground;
+//   color: $textColorDark;
+// }
+// .dark-card-mode p {
+//   color: $textColorDark;
+// }
+
+// .dark-card-mode .repo-svg {
+//   fill: $textColorDark;
+// }
+
+// .dark-card-mode:hover {
+//   background-color: $buttonColor !important;
+//   box-shadow: 0px 0px 16px $darkBoxShadow;
+// }
 @import "../../_globalColor";
 
 .repo-card-div {
-  color: $githubRepoCardColor;
+  display: flex;
+  flex-direction: column;
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  padding: 2rem;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
   transition: all 0.3s ease;
+  width: 300px; // Matches achievement card width
+  max-width: 100%;
 }
+
 .repo-card-div:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
 
-.repo-stats {
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  font-size: 13px;
-  color: $githubRepoCardRepoCardStatsColor;
-}
-
-.repo-left-stat {
-  -webkit-box-flex: 1;
-  flex-grow: 1;
-  display: flex;
-}
-
-.language-color {
-  width: 10px;
-  height: 10px;
-  background-color: $githubRepoCardLanguageColorBG;
-  margin-right: 0.25rem;
-  border-radius: 100%;
-}
-
-.repo-left-stat span {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  margin-right: 0.75rem;
-}
-
-.repo-name-div {
-  display: flex;
-  align-items: center;
-}
-
-.repo-svg {
-  margin-right: 0.5rem;
-  min-width: 16px;
-}
-
 .repo-name {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  color: $githubRepoCardRepoNameColor;
-  margin-bottom: 0.75rem;
-  font-size: 25px;
+  color: $titleColor;
+  font-size: 1.2rem; // Slightly smaller title
   font-weight: 700;
-  letter-spacing: -0.5px;
-  overflow: hidden;
-  margin: 0px;
-  height: 30px;
-}
-
-.repo-star-svg {
-  margin-right: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .repo-description {
+  color: $cardSubtitle;
+  font-size: 0.95rem; // Slightly smaller font
+  line-height: 1.4rem;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 
-.dark-card-mode {
+.repo-card-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.repo-tag {
+  background: $buttonColor;
+  color: $lightBackground3;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  height: 1.8em; // Slightly smaller height
+  padding: 0 0.6em;
+  margin: 0 0.3rem 0.3rem 0;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.repo-tag:hover {
+  background: $buttonHover;
+}
+
+.language-color {
+  width: 8px; // Smaller icon
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+}
+
+.dark-mode .repo-card-div {
   background-color: $darkBackground;
   color: $textColorDark;
 }
-.dark-card-mode p {
-  color: $textColorDark;
-}
 
-.dark-card-mode .repo-svg {
-  fill: $textColorDark;
-}
-
-.dark-card-mode:hover {
-  background-color: $buttonColor !important;
-  box-shadow: 0px 0px 16px $darkBoxShadow;
+.dark-mode .repo-card-div:hover {
+  box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
 }
