@@ -107,6 +107,52 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
   categories: {
+    "Programming": [
+      {
+        skillName: "python",
+        fontAwesomeClassname: "fab fa-python"
+      },
+      {
+        skillName: "C/C++",
+        fontAwesomeClassname: "fas fa-code"
+      },
+      {
+        skillName: "MATLAB/Simulink",
+        fontAwesomeClassname: "fas fa-calculator"
+      },
+      // {
+      //   skillName: "docker",
+      //   fontAwesomeClassname: "fab fa-docker"
+      // }
+    ],
+
+    "Machine Learning": [
+      {
+        skillName: "PyTorch",
+        fontAwesomeClassname: "fas fa-fire"
+      },
+      {
+        skillName: "Keras",
+        fontAwesomeClassname: "fas fa-layer-group"
+      },
+      {
+        skillName: "CUDA",
+        fontAwesomeClassname: "fas fa-microchip"
+      },
+      {
+        skillName: "Cloud Computing",
+        fontAwesomeClassname: "fas fa-cloud"
+      },
+      // {
+      //   skillName: "Deep Learning",
+      //   fontAwesomeClassname: "fas fa-brain"
+      // },
+      // {
+      //   skillName: "AI",
+      //   fontAwesomeClassname: "fas fa-laptop"
+      // }
+    ],
+
     "Robotics": [
       {
         skillName: "ROS2",
@@ -145,50 +191,7 @@ https://fontawesome.com/icons?d=gallery */
       //   fontAwesomeClassname: "fas fa-eye"
       // },
     ],
-    "Programming": [
-      {
-        skillName: "python",
-        fontAwesomeClassname: "fab fa-python"
-      },
-      {
-        skillName: "C/C++",
-        fontAwesomeClassname: "fas fa-code"
-      },
-      {
-        skillName: "MATLAB/Simulink",
-        fontAwesomeClassname: "fas fa-calculator"
-      },
-      // {
-      //   skillName: "docker",
-      //   fontAwesomeClassname: "fab fa-docker"
-      // }
-    ],
-    "Machine Learning": [
-      {
-        skillName: "PyTorch",
-        fontAwesomeClassname: "fas fa-fire"
-      },
-      {
-        skillName: "Keras",
-        fontAwesomeClassname: "fas fa-layer-group"
-      },
-      {
-        skillName: "CUDA",
-        fontAwesomeClassname: "fas fa-microchip"
-      },
-      {
-        skillName: "Cloud Computing",
-        fontAwesomeClassname: "fas fa-cloud"
-      },
-      // {
-      //   skillName: "Deep Learning",
-      //   fontAwesomeClassname: "fas fa-brain"
-      // },
-      // {
-      //   skillName: "AI",
-      //   fontAwesomeClassname: "fas fa-laptop"
-      // }
-    ],
+
     "Design And Manufacturing": [
       {
         skillName: "CAD",
@@ -377,7 +380,7 @@ const bigProjects = { // This is under StartupProjects container
     {
       image: require("./assets/images/bboxes.jpg"),
       projectName: "NVIDIA Open Hackathon: Language to Action",
-      projectDesc: "Llama3.2 paired with YOLOworld to auto generate and execute code for pathing and control commands from human language. i.e. tell your robot what to do and it will do it!",
+      projectDesc: "Team Lead for an Robotic LLM Agent (LangChain). Integrated Llama3.3 and YOLOworld object detection in a Turtlebot3 to auto generate and execute code for pathing and control commands from human language. i.e. tell your robot what to do and it will do it! I implemented the LangChain agent for query solving, code execution, and self-revising coding errors.",
       footerLink: [
         {
           name1: "About",
@@ -389,28 +392,24 @@ const bigProjects = { // This is under StartupProjects container
       ]
     },
     {
-      image: require("./assets/images/yolo_cone_detection_sim.png"),
-      projectName: "Autonomous Mobile Robot via Machine Learning",
-      projectDesc: "PPO, YOLOv8, K-means, and other ML algorithms collaborating to guide a Turtlebot3 through an unknown environment to capture a care package.",
+      image: require("./assets/images/Maze Solver Pic.jpeg"),
+      projectName: "Robotic Maze Solver",
+      projectDesc: "Programmed Turtlebot3 (ROS, Python) to solve a maze using KNN for sign reading, SLAM with LiDAR for collision avoidance, and PID control.",
       footerLink: [
         {
-          name1: "Paper",
-          url1: "https://drive.google.com/file/d/1jaIncONsQz6vT9O9wu5v01NHebDZPQ_G/view?usp=sharing",
-          name2: "Visit Repo",
-          url2: "https://github.com/jblevins32/Autonomous_Mobile_Robot_via_Machine_Learning"
+          name1: "Video",
+          url1: "https://drive.google.com/file/d/1UpxFD14YY5Gb7d2V74vq6o6VIfgGI5aN/view?usp=sharing",
         }
       ]
     },
     {
-      image: require("./assets/images/img_attentionyolo.jpg"),
-      projectName: "Vision-Based Object Tracking Models for Autonomous Vehicles",
-      projectDesc: "Development of custom vision-based deep perception models for object detection and tracking in road-way scenarios for autonomous vehicles with PyTorch. Developed end-to-end training and testing pipeline. A study on how variations in model architecture such as the addition of attention or encoder-decoders affect the final inference for this task.",
+      image: require("./assets/images/Dead Reck Pic.jpeg"),
+      projectName: 'Robotic "Perfect Square" Navigation using Dead Reckoning',
+      projectDesc: "Developed a Turtlebot3 (ROS, Python) that navigates in a perfect square using dead reckoning, incorporating obstacle avoidance to compensate for drift and accumulated error.",
       footerLink: [
         {
-          name1: "Paper",
-          url1: "https://drive.google.com/file/d/1MRTCZ6oBk59E9YgXJN_5LrG2qpbGcri7/view?usp=sharing",
-          name2: "Visit Repo",
-          url2: "https://github.com/jblevins32/Vision-Based-Object-Tracking-Model-for-Autonomous-Vehicles"
+          name1: "Video",
+          url1: "https://drive.google.com/file/d/169KZMTqV_N477LYxgyvx7ISTyzPduEz6/view?usp=sharing",
         }
       ]
     },
@@ -441,41 +440,67 @@ const bigProjects = { // This is under StartupProjects container
     //   ]
     // },
     {
-      image: require("./assets/images/robonav.png"),
-      projectName: "RoboJackets - RoboNav Mars Rover Software Team",
-      projectDesc: "Motion planning subteam; Development of path planning and control for a mars rover with an NVIDIA Jetson Orin Nano for traversal over complex terrain for the 2025 University Rover Competition.",
+      image: require("./assets/images/Model Chain.png"),
+      projectName: "Comparing Unsupervised and Supervised Techniques for Instance-level Segmentation: Cityscapes Dataset",
+      projectDesc: "Implemented instance segmentation on Cityscapes dataset using model chaining (DETR for object detection with SegMyO) against pre-trained DeepLab for pixel-level segmentation. Evaluated transformer-based models against pre-trained CNN architectures, as well as unsupervised techniques (K-Means, and DBSCAN) for accuracy and computational efficiency.",
       footerLink: [
         {
-          name1: "About",
-          url1: "https://urc.marssociety.org/home",
+          name1: "Report",
+          url1: "https://drive.google.com/file/d/1s5f3tXFM4jqitTTrqYDse6CJ1aO2FqJu/view?usp=sharing",
           name2: "Visit Repo",
-          url2: "https://github.com/RoboJackets"
+          url2: ""
         }
       ]
     },
+    // {
+    //   image: require("./assets/images/robonav.png"),
+    //   projectName: "Robot Drawing",
+    //   projectDesc: "Motion planning subteam; Development of path planning and control for a mars rover with an NVIDIA Jetson Orin Nano for traversal over complex terrain for the 2025 University Rover Competition.",
+    //   footerLink: [
+    //     {
+    //       name1: "About",
+    //       url1: "",
+    //       name2: "No Repo Available",
+    //       url2: ""
+    //     }
+    //   ]
+    // },
     {
-      image: require("./assets/images/slosh.png"),
-      projectName: "Liquid Sloshing Reduction via Input Shaping",
-      projectDesc: "Input shaping of crane, double-pendulum, liquid system, reducing system modes to 5% of their original magnitude, saving factory workers from hazardous liquid sloshing ",
+      image: require("./assets/images/DND EDA.png"),
+      projectName: "Dungeons and Dragons 5e Spells: Exploratory Data Analysis",
+      projectDesc: "The magic behind the mechanics! Conducted an exploratory data analysis of D&D 5e spells, visualizing trends in sourcebooks, classes, schools of magic, spell levels, components, rituals, casting times, ranges, and durations.",
       footerLink: [
         {
-          name1: "Paper",
-          url1: "https://drive.google.com/file/d/138AKk0rJvJKB8Gt7015BfxH7fno3F07A/view?usp=sharing",
+          name1: "About",
+          url1: "",
           name2: "No Repo Available",
           url2: ""
         }
       ]
     },
     {
-      image: require("./assets/images/MMM.jpg"),
-      projectName: "Machining Training Library",
-      projectDesc: "Project lead for all-encompassing machining tutorial library",
+      image: require("./assets/images/Multi Armed.png"),
+      projectName: "Multi-Armed Bandit Optimization",
+      projectDesc: "Implemented Multi-Armed Bandit optimization using Reinforcement Learning techniques, comparing Epsilon-Greedy and Upper Confidence Bound (UCB) algorithms to balance exploration and exploitation for optimal decision-making.",
       footerLink: [
         {
           name1: "About",
-          url1: "https://www.me.gatech.edu/montgomery-machining-mall",
-          name2: "Visit Training",
-          url2: "https://www.youtube.com/@gatech_ME_machining_mall"
+          url1: "",
+          name2: "No Repo Available",
+          url2: ""
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/FinanceLit.png"),
+      projectName: "FinanceLit - Financial Literacy Mock Startup",
+      projectDesc: "Founded the idea for FinanceLit, a financial literacy app designed to provide a one-stop learning platform for investment and personal finance education with a subscription business model. Through this project, I deepened my understanding of technology innovation and entrepreneurship, exploring market segmentation, customer discovery, and business modeling principles. Additionally, I explored how AI can address business needs through data-driven insights and personalization.",
+      footerLink: [
+        {
+          name1: "About",
+          url1: "",
+          name2: "",
+          url2: ""
         }
         //  you can add extra buttons here.
       ]
@@ -787,7 +812,7 @@ const podcastSection = {
     "https://open.spotify.com/embed/track/5rND1yAKs1ysp5DrMwmOYr?utm_source=generator",
     "https://open.spotify.com/embed/track/30oWbUM7jgDSwWqhRkqisK?utm_source=generator"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
