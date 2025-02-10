@@ -94,36 +94,22 @@ const aboutMe = {
 
 const skillsSection = {
   title: "Technical Skills",
-  skills: [
-    // emoji(
-    //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    // ),
-    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // )
-  ],
+  skills: [],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
   categories: {
     "Programming": [
       {
-        skillName: "python",
+        skillName: "Python",
         fontAwesomeClassname: "fab fa-python"
       },
       {
-        skillName: "C/C++",
+        skillName: "C++",
         fontAwesomeClassname: "fas fa-code"
       },
       {
-        skillName: "MATLAB/Simulink",
+        skillName: "MATLAB",
         fontAwesomeClassname: "fas fa-calculator"
       },
-      // {
-      //   skillName: "docker",
-      //   fontAwesomeClassname: "fab fa-docker"
-      // }
     ],
 
     "Machine Learning": [
@@ -139,18 +125,18 @@ https://fontawesome.com/icons?d=gallery */
         skillName: "CUDA",
         fontAwesomeClassname: "fas fa-microchip"
       },
-      {
-        skillName: "Cloud Computing",
-        fontAwesomeClassname: "fas fa-cloud"
-      },
       // {
-      //   skillName: "Deep Learning",
-      //   fontAwesomeClassname: "fas fa-brain"
-      // },
-      // {
-      //   skillName: "AI",
-      //   fontAwesomeClassname: "fas fa-laptop"
+      //   skillName: "Cloud Computing",
+      //   fontAwesomeClassname: "fas fa-cloud"
       // }
+      {
+        skillName: "Pandas",
+        fontAwesomeClassname: "fas fa-table"
+      },
+      {
+        skillName: "Seaborn",
+        fontAwesomeClassname: "fas fa-chart-bar"
+      }
     ],
 
     "Robotics": [
@@ -158,61 +144,88 @@ https://fontawesome.com/icons?d=gallery */
         skillName: "ROS2",
         fontAwesomeClassname: "fas fa-robot"
       },
-      {
-        skillName: "Gazebo",
-        fontAwesomeClassname: "fas fa-home"
-      },
-      {
-        skillName: "Isaac SIM",
-        fontAwesomeClassname: "fas fa-eye"
-      },
-      {
-        skillName: "OpenAI Gym",
-        fontAwesomeClassname: "fas fa-dumbbell"
-      },
-      {
-        skillName: "Robodk",
-        fontAwesomeClassname: "fas fa-cogs"
-      },
+      // {
+      //   skillName: "Gazebo",
+      //   fontAwesomeClassname: "fas fa-home"
+      // },
+      // {
+      //   skillName: "Isaac SIM",
+      //   fontAwesomeClassname: "fas fa-eye"
+      // },
+      // {
+      //   skillName: "OpenAI Gym",
+      //   fontAwesomeClassname: "fas fa-dumbbell"
+      // },
+      // {
+      //   skillName: "Robodk",
+      //   fontAwesomeClassname: "fas fa-cogs"
+      // },
       {
         skillName: "OpenCV",
         fontAwesomeClassname: "fas fa-camera"
+      },
+      {
+        skillName: "Controls",
+        fontAwesomeClassname: "fas fa-sliders-h"
       }
-      // {
-      //   skillName: "SLAM",
-      //   fontAwesomeClassname: "fas fa-map"
-      // },
-      // {
-      //   skillName: "Controls",
-      //   fontAwesomeClassname: "fas fa-sliders-h"
-      // },
-      // {
-      //   skillName: "Computer Vision",
-      //   fontAwesomeClassname: "fas fa-eye"
-      // },
     ],
 
-    "Design And Manufacturing": [
+    "Medical & Neuromotor": [
       {
-        skillName: "CAD",
-        fontAwesomeClassname: "fas fa-drafting-compass"
+        skillName: "Medical Imaging",
+        fontAwesomeClassname: "fas fa-x-ray"
       },
       {
-        skillName: "Metalworking",
-        fontAwesomeClassname: "fas fa-industry"
+        skillName: "Human Physiology",
+        fontAwesomeClassname: "fas fa-male"
       },
       {
-        skillName: "Woodworking",
-        fontAwesomeClassname: "fas fa-tree"
+        skillName: "Biosignals",
+        fontAwesomeClassname: "fas fa-heartbeat"
       },
       {
-        skillName: "3D Printing",
-        fontAwesomeClassname: "fas fa-cube"
-      }  
+        skillName: "Electromyography (EMG)",
+        fontAwesomeClassname: "fas fa-bolt"
+      },
+      {
+        skillName: "MR Elastography",
+        fontAwesomeClassname: "fas fa-wave-square"
+      }
+    ],
+
+    // "Design And Manufacturing": [
+    //   {
+    //     skillName: "CAD",
+    //     fontAwesomeClassname: "fas fa-drafting-compass"
+    //   },
+    //   {
+    //     skillName: "Metalworking",
+    //     fontAwesomeClassname: "fas fa-industry"
+    //   },
+    //   {
+    //     skillName: "Woodworking",
+    //     fontAwesomeClassname: "fas fa-tree"
+    //   },
+    //   {
+    //     skillName: "3D Printing",
+    //     fontAwesomeClassname: "fas fa-cube"
+    //   }  
+    // ],
+
+    "Business & Innovation": [
+      {
+        skillName: "Startup Strategy",
+        fontAwesomeClassname: "fas fa-rocket"
+      },
+      {
+        skillName: "Business Model Design",
+        fontAwesomeClassname: "fas fa-lightbulb"
+      }
     ]
   },
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Education Section
 
@@ -293,7 +306,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Associate Academic Professional",
@@ -368,7 +381,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -773,7 +786,7 @@ const blogSection = {
         "Georgia Tech - Mechanical Engineering"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections

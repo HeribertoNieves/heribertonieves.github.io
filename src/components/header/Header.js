@@ -39,7 +39,7 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
         <span className="profile-wrapper">         
             <img 
-            src={require('../../assets/images/pfp.jpg')}
+            src={require('../../assets/images/HeribertoNieves_HeadShot.jpeg')}
             alt="Profile" 
             className="profile-picture" 
           />
