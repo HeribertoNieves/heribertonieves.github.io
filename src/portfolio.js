@@ -860,7 +860,7 @@ const awardsSection = {
   awards: [
     {
       title: "NSF Graduate Research Fellowship",
-      description: "Prestigious fellowship awarded by the National Science Foundation to support outstanding graduate students in STEM fields.",
+      description: "Awarded by the National Science Foundation to support outstanding STEM graduate students.",
       year: "2021",
       url: "https://www.nsfgrfp.org/"
     },
@@ -871,7 +871,7 @@ const awardsSection = {
       url: "https://www.arcsfoundation.org/"
     },
     {
-      title: "Georgia Tech Pathbreakers Fellowship",
+      title: "Georgia Tech UCEM Fellowship",
       description: "Competitive fellowship recognizing excellent PhD students at Georgia Tech.",
       year: "2023",
       //url: "https://www.arcsfoundation.org/"
@@ -884,7 +884,7 @@ const awardsSection = {
     },
     {
       title: "GEM Fellow",
-      description: "Nationally recognized fellowship supporting underrepresented students in STEM graduate programs.",
+      description: "Nationally recognized fellowship supporting underrepresented graduate students.",
       year: "2021",
       url: "https://www.gemfellowship.org/"
     }
