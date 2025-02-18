@@ -393,7 +393,7 @@ const bigProjects = { // This is under StartupProjects container
     {
       image: require("./assets/images/bboxes.jpg"),
       projectName: "NVIDIA Open Hackathon: Language to Action",
-      projectDesc: "Team Lead for an Robotic LLM Agent (LangChain). Integrated Llama3.3 and YOLOworld object detection in a Turtlebot3 to auto generate and execute code for pathing and control commands from human language. i.e. tell your robot what to do and it will do it! I implemented the LangChain agent for query solving, code execution, and self-revising coding errors.",
+      projectDesc: "Team Lead for a Robotic LLM Agent (LangChain). Integrated Llama3.3 and YOLOworld object detection in a Turtlebot3 to auto generate and execute code for pathing and control commands from human language. i.e. tell your robot what to do and it will do it! I implemented the LangChain agent for query solving, code execution, and self-revising coding errors.",
       footerLink: [
         {
           name1: "About",
@@ -484,8 +484,8 @@ const bigProjects = { // This is under StartupProjects container
       projectDesc: "The magic behind the mechanics! Conducted an exploratory data analysis of D&D 5e spells, visualizing trends in sourcebooks, classes, schools of magic, spell levels, components, rituals, casting times, ranges, and durations.",
       footerLink: [
         {
-          name1: "About",
-          url1: "",
+          name1: "Repo",
+          url1: "https://github.com/HeribertoNieves/5eML",
           name2: "No Repo Available",
           url2: ""
         }
@@ -702,9 +702,8 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Service, Organizations, & Awards",
-  subtitle:
-    "",
+  title: "News",
+  subtitle: "Here are news articles that I am featured in!",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     // {
@@ -714,79 +713,80 @@ const blogSection = {
     //     "Georgia Tech, faculty member"
     // },
     {
-      url: "https://www.ieee-ras.org/",
-      title: "IEEE Robotics and Automation Society",
-      description:
-        "Graduate student member"
+      url: "https://research.gatech.edu/using-deep-learning-techniques-improve-liver-disease-diagnosis-and-treatment-0",
+      title: "Using Deep Learning Techniques to Improve Liver Disease Diagnosis and Treatment",
+      // description:
+      //   "Georgia Tech IRIM Article about my new research paper, 'Deep Learning-Enabled AUtomated Quality Control for Liver MR Elastography: Initial Results'.",
+      // image: require("./assets/images/ssep.png")
     },
     {
-      url: "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
-      title: "International Conference on Robotics and Automation",
-      description:
-        "Reviewer"
+      url: "https://grad.gatech.edu/news/15-georgia-tech-phd-students-awarded-fellowship-propel-stem-research?utm_source=newsletter&utm_medium=email&utm_content=Graduate%20Students&utm_campaign=Daily%20Digest%20-%20Oct.%2015%2C%202024",
+      title: "Honored as an Atlanta ARCS Foundation Scholar",
+      // description:
+      //   "I have been named an ARCS Foundation Atlanta Scholar for 2024-25, recognizing my research in applying deep learning to automate quality control and measurement for staging liver fibrosis with MR Elastography! This prestigious award supports outstanding Ph.D. students making significant contributions to science and technology. Read more about the recognition and other awardees."
     },
-    {
-      url: "https://a2c2.org/event/conference/2024-4th-modeling-estimation-and-control-conference",
-      title: "Modeling Estimation and Control Conference",
-      description:
-        "Reviewer"
-    },
-    {
-      url: "https://www.firstinspires.org/robotics/frc",
-      title: "FIRST Robotics",
-      description:
-        "Software workshop lead"
-    },
-    {
-      url: "https://ctl.gatech.edu/tech-teaching",
-      title: "Tech to Teaching Graduate",
-      description:
-        "Georgia Tech's Teaching Program"
-    },
-    {
-      url: "https://safety.me.gatech.edu/",
-      title: "Interactive Learning Committee",
-      description:
-        "Georgia Tech - Mechanical Engineering"
-    },
-    {
-      url: "",
-      title: "Undergraduate Curriculum Committee",
-      description:
-        "Georgia Tech - Mechanical Engineering"
-    },
-    {
-      url: "https://robograds.gatech.edu/",
-      title: "RoboGrads",
-      description:
-        "Georgia Tech"
-    },
-    {
-      url: "https://www.scoutspirit.org/",
-      title: "Eagle Scout",
-      description:
-        "Boy Scouts of America"
-    },
-    {
-      url: "",
-      title: "Highest Honors",
-      description:
-        "Bachelor's 4.0 GPA"
-    },
-    {
-      url: "https://www.me.gatech.edu/news/faculty-and-staff-recognized-annual-woodruff-school-awards",
-      title: "Professional Support Excellence",
-      description:
-        "Georgia Tech - Mechanical Engineering"
-    },
-    {
-      url: "",
-      title: "Culture Champion",
-      description:
-        "Georgia Tech - Mechanical Engineering"
-    }
+  //   {
+  //     url: "https://a2c2.org/event/conference/2024-4th-modeling-estimation-and-control-conference",
+  //     title: "Modeling Estimation and Control Conference",
+  //     description:
+  //       "Reviewer"
+  //   },
+  //   {
+  //     url: "https://www.firstinspires.org/robotics/frc",
+  //     title: "FIRST Robotics",
+  //     description:
+  //       "Software workshop lead"
+  //   },
+  //   {
+  //     url: "https://ctl.gatech.edu/tech-teaching",
+  //     title: "Tech to Teaching Graduate",
+  //     description:
+  //       "Georgia Tech's Teaching Program"
+  //   },
+  //   {
+  //     url: "https://safety.me.gatech.edu/",
+  //     title: "Interactive Learning Committee",
+  //     description:
+  //       "Georgia Tech - Mechanical Engineering"
+  //   },
+  //   {
+  //     url: "",
+  //     title: "Undergraduate Curriculum Committee",
+  //     description:
+  //       "Georgia Tech - Mechanical Engineering"
+  //   },
+  //   {
+  //     url: "https://robograds.gatech.edu/",
+  //     title: "RoboGrads",
+  //     description:
+  //       "Georgia Tech"
+  //   },
+  //   {
+  //     url: "https://www.scoutspirit.org/",
+  //     title: "Eagle Scout",
+  //     description:
+  //       "Boy Scouts of America"
+  //   },
+  //   {
+  //     url: "",
+  //     title: "Highest Honors",
+  //     description:
+  //       "Bachelor's 4.0 GPA"
+  //   },
+  //   {
+  //     url: "https://www.me.gatech.edu/news/faculty-and-staff-recognized-annual-woodruff-school-awards",
+  //     title: "Professional Support Excellence",
+  //     description:
+  //       "Georgia Tech - Mechanical Engineering"
+  //   },
+  //   {
+  //     url: "",
+  //     title: "Culture Champion",
+  //     description:
+  //       "Georgia Tech - Mechanical Engineering"
+  //   }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -852,6 +852,47 @@ const twitterDetails = {
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
+const awardsSection = {
+  display: true,
+  title: "Awards & Recognitions",
+  subtitle: "Honors, Fellowships, and Achievements",
+  displayDynamicAwards: "true", // Set to "false" if you want static awards
+  awards: [
+    {
+      title: "NSF Graduate Research Fellowship",
+      description: "Prestigious fellowship awarded by the National Science Foundation to support outstanding graduate students in STEM fields.",
+      year: "2021",
+      url: "https://www.nsfgrfp.org/"
+    },
+    {
+      title: "Atlanta ARCS Foundation Scholar",
+      description: "Merit-based award honoring exceptional PhD candidates in Atlanta, GA.",
+      year: "2025",
+      url: "https://www.arcsfoundation.org/"
+    },
+    {
+      title: "Georgia Tech Pathbreakers Fellowship",
+      description: "Competitive fellowship recognizing excellent PhD students at Georgia Tech.",
+      year: "2023",
+      //url: "https://www.arcsfoundation.org/"
+    },
+    {
+      title: "Georgia Tech Goizueta Fellowship",
+      description: "Fellowship awarded to distinguished Hispanic PhD students, emphasizing leadership and academic excellence.",
+      year: "2023",
+      // url: "https://www.arcsfoundation.org/"
+    },
+    {
+      title: "GEM Fellow",
+      description: "Nationally recognized fellowship supporting underrepresented students in STEM graduate programs.",
+      year: "2021",
+      url: "https://www.gemfellowship.org/"
+    }
+  ]
+};
+
+
+
 export {
   illustration,
   greeting,
@@ -859,6 +900,7 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
+  awardsSection,
   techStack,
   workExperiences,
   openSource,

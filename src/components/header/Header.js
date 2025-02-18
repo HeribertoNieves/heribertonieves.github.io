@@ -95,7 +95,7 @@ function Header() {
           )} */}
           {viewBlog && (
             <li>
-              <a href="#blogs">Service/Orgs/Awards</a>
+              <a href="#blogs">News</a>
             </li>
           )}
           {/* {viewTalks && (
