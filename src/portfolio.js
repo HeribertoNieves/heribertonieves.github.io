@@ -860,7 +860,7 @@ const awardsSection = {
   awards: [
     {
       title: "NSF Graduate Research Fellowship",
-      description: "Awarded by the National Science Foundation to support outstanding STEM graduate students.",
+      description: "Awarded by the National Science Foundation to support outstanding graduate students.",
       year: "2021",
       url: "https://www.nsfgrfp.org/"
     },
@@ -878,7 +878,7 @@ const awardsSection = {
     },
     {
       title: "Georgia Tech Goizueta Fellowship",
-      description: "Fellowship awarded to distinguished Hispanic PhD students, emphasizing leadership and academic excellence.",
+      description: "Fellowship awarded to distinguished Hispanic PhD students.",
       year: "2023",
       // url: "https://www.arcsfoundation.org/"
     },
